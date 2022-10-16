@@ -37,7 +37,7 @@
     margin-top: 10px;
     height: 50px;
     display: flex;
-    
+    margin-left: -8rem;
     justify-content: center;
 }
 .btn{
@@ -45,7 +45,9 @@
     border: 0px;
     color: white;
     font-stretch: ultra-expanded;
-    width: 8.8rem;
+    width: 0 auto;
+    padding: 0 23px;
+    font-size: 15px;
 }
 .btn:hover{
     background-color: #7c131a;
@@ -53,12 +55,15 @@
 .main{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
     height: 760px;
+    margin-bottom: -105px;
+    padding-right: 10rem;
 }
 .login{
     font-size: 3rem;
+    padding-left: 7rem;
 }
 .userdiv{
     display: flex;
@@ -67,6 +72,10 @@
     align-items: flex-start;
     margin: 0px auto;
     margin-top: 40px;
+    
+}
+.username{
+    margin-bottom: 6px;
 }
 .userinput{
    height: 37px;
@@ -75,6 +84,7 @@
 .forgotuser{
     color: #0274c9;
     text-decoration: none;
+    margin-top: 10px;
 }
 .forgotuser:hover{
     text-decoration: underline;
@@ -87,6 +97,9 @@
     margin: 0px auto;
     margin-top: 40px;
 }
+.password{
+    margin-bottom: 6px;
+}
 .passinput{
     height: 37px;
     width: 18rem;
@@ -94,9 +107,13 @@
 .forgotpass{
     color: #0274c9;
     text-decoration: none;
+    margin-top: 10px;
 }
 .forgotpass:hover{
     text-decoration: underline;
+}
+.login{
+    margin-left: -10rem;
 }
 .loginbtn{
     background-color: var(--red);
@@ -104,19 +121,25 @@
     border: 0px;
     margin-top: 30px;
     width: 11rem;
-    height: 42px;
+    height: 46px;
     border-radius: 50px;
     margin: 27px auto;
 }
 .line{
     height: 1px;
-    width: 30rem;
+    width: 19.5rem;
     background-color: grey;
     margin: 0px auto;
+    position: relative;
+    left: 4.3rem;
+    margin-top: 15px;
+    margin-bottom: 7px;
 }
 .newvanguard{
     font-size: 1.8rem;
     margin: 15px auto;
+    position: relative;
+    left: 1.5rem;
 }
 .openbtn{
     width: 10rem;
@@ -132,10 +155,16 @@
     background-color: grey;
     margin: 0px auto;
     margin-top: 75px;
+    position: relative;
+    left: 5rem;
 }
 .waffle{
     margin: 20px auto;
     width: 50%;
+    text-align: left;
+    position: relative;
+    left: 2.5rem;
+   
 }
 .nav2{
     color: white;
@@ -144,7 +173,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    
+    margin-top: 60px;
 }
 .nav2btn{
     color: white;
@@ -159,6 +188,7 @@
 .a1{
     color: black;
     text-decoration: none;
+    margin-bottom: 3.5px;
 }
 .a1:hover{
     text-decoration: underline;
@@ -197,6 +227,7 @@
 .vanguard2{
     color: var(--red);
     margin-left: 29rem;
+    margin-bottom: 20px;
 }
 .waffle2{
     margin: 10px auto;
@@ -242,4 +273,34 @@
     position: fixed;
     bottom: 0px;
     right: 0px;
+    cursor: pointer;
+}
+.arrowdown{
+    margin-left: .4rem;
+}
+.popup{
+    width: 560px;
+    height: 800px;
+    background-color: #e5e5e5;
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.poptop{
+    background-color: black;
+    height: 40px;
+}
+.deletebtn{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    float: right;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.p{
+    margin: 40px 40px;
 }
