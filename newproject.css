@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --red: #96151d;
+}
+.toplinks{
+    display: flex;
+    gap: 2rem;
+    font-size: .65rem;
+    margin-left: 55rem;
+    margin-top: 10px;
+}
+.a{
+    color: black;
+    text-decoration: none;
+}
+.a:hover{
+    text-decoration: underline;
+}
+.vanguard{
+    margin-left: 29rem;
+    color: var(--red);
+}
+.textbox{
+    border-bottom: 1px solid grey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-left: 75.5rem;
+    outline:none;
+    margin-top: -40px;
+}
+.nav{
+    background-color: var(--red);
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    
+    justify-content: center;
+}
+.btn{
+    background-color: var(--red);
+    border: 0px;
+    color: white;
+    font-stretch: ultra-expanded;
+    width: 8.8rem;
+}
+.btn:hover{
+    background-color: #7c131a;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    height: 760px;
+}
+.login{
+    font-size: 3rem;
+}
+.userdiv{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: flex-start;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.userinput{
+   height: 37px;
+   width: 18rem;
+}
+.forgotuser{
+    color: #0274c9;
+    text-decoration: none;
+}
+.forgotuser:hover{
+    text-decoration: underline;
+}
+.passdiv{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: flex-start;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.passinput{
+    height: 37px;
+    width: 18rem;
+ }
+.forgotpass{
+    color: #0274c9;
+    text-decoration: none;
+}
+.forgotpass:hover{
+    text-decoration: underline;
+}
+.loginbtn{
+    background-color: var(--red);
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+    width: 11rem;
+    height: 42px;
+    border-radius: 50px;
+    margin: 27px auto;
+}
+.line{
+    height: 1px;
+    width: 30rem;
+    background-color: grey;
+    margin: 0px auto;
+}
+.newvanguard{
+    font-size: 1.8rem;
+    margin: 15px auto;
+}
+.openbtn{
+    width: 10rem;
+    height: 38px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    margin: 0px auto;
+}
+.line2{
+    height: 1px;
+    width: 60rem;
+    background-color: grey;
+    margin: 0px auto;
+    margin-top: 75px;
+}
+.waffle{
+    margin: 20px auto;
+    width: 50%;
+}
+.nav2{
+    color: white;
+    background-color: grey;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.nav2btn{
+    color: white;
+    text-decoration: none;
+}
+.nav2btn:hover{
+    text-decoration: underline;
+}
+.help{
+    margin-left: 30rem;
+}
+.a1{
+    color: black;
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.column4{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.columndiv{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.line3{
+    height: 1px;
+    width: 60rem;
+    background-color: grey;
+    margin: 30px auto;
+}
+.vanguard2{
+    color: var(--red);
+    margin-left: 29rem;
+}
+.waffle2{
+    margin: 10px auto;
+    width: 51%;
+}
+.bottomdiv{
+    margin: 10px auto;
+    width: 51%;
+}
+.waffle3{
+    display: inline;
+}
+.a2{
+    color:black;
+}
+.hrline{
+    height: 17px;
+    width: 1px;
+    background-color: black;
+    display: inline-block;
+    margin-left: .2rem;
+    margin-right: .2rem;
+    position: relative;
+    top: 4px;
+}
+.footer{
+    background-color: #e5e5e5;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.ahead{
+    font-weight: 700;
+}
+.ahead:hover{
+    text-decoration: none;
+}
+.feedbackbtn{
+    height: 37px;
+    width: 95px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    border: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
