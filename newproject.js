@@ -21,4 +21,7 @@ feedbackbtn.addEventListener("click",function(){
 })
 deletebtn.addEventListener("click",function(){
     popup.remove()
+    p.remove()
+    poptop.remove()
+    deletebtn.remove()
 })
