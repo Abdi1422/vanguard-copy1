@@ -14,7 +14,7 @@
 }
 .vgcontainer{
     margin: 0px auto;
-    width: 1000px;
+    width: 950px;
 }
 .a{
     color: black;
@@ -144,8 +144,7 @@
     height: 1px;
     width: 19.5rem;
     background-color: grey;
-    margin-right:  auto;
-    
+    margin-right:  auto;   
     margin-top: 15px;
     margin-bottom: 7px;
 }
@@ -333,7 +332,36 @@
 .toplinks2{
     display: none;
 }
+.topcontainer{
+    margin: 10px auto;
+    width: 88%;
+}
+.navcontainer{
+    width: 100%;
+}
+.searchbtn{
+    display: none;
+}
+.searchbar{
+    display: none;
+}
+
 @media (max-width: 1000px){
+    .searchbar{
+        height: 100%;
+        background-color: #e5e5e5;
+        width: 10%;
+        border: 1px solid #dcdcdc;
+        display: inline;
+        padding: 0px 10px;
+        transition: width .1000ms;
+    }
+    .line{
+        width: 33.3vw;
+    }
+    .maincontainer{
+        width: 33.3%;
+    }
     .line3{
         width: 100%;
     }
@@ -375,11 +403,33 @@
         color: white;
         border: 0px;
         font-size: 16px;
-        
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 105px;
+        justify-content: center;
+    }
+    .menubtn:hover{
+        background-color: #7c131a;
+    }
+    .searchbtn{
+        display: inline;
+        background-color: var(--red);
+        color: white;
+        border: 0px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        width: 85px;
+        height: 100%;
+        justify-content: center;
+    }
+    .searchbtn:hover{
+        background-color: #7c131a;
     }
     .menup{
         display: inline;
-        padding-bottom: 20px;
+        
     }
     .menuicon{
         height: 30px;
@@ -391,9 +441,18 @@
         color: white;
         display: inline;
     }
+    .navcontainer{
+        width: 100%;
+        background-color: var(--red);
+        display: block;
+    }
     .nav{
         display: flex;
-        gap: 500px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 0px;
+        margin: 0px auto;
     }
     .textbox{
         display: none;
@@ -406,29 +465,41 @@
         display: flex;
         gap: 1.2rem;
         font-size: .8rem;
-    }
+    }   
     .vgcontainer{
         display: flex;
         align-items: center;
-        gap: 50%;
-        
-        margin: 10px auto;
-        width: 88%;
+        justify-content: space-between;
+        width: 100%;
     }
     .line2{
         display: none;
     }
-
 }
 @media (max-width:830px){
     .aa{
         display: none;
     }
-    .alogin{
-        
-
+    .maincontainer{
+        width: 50%;
     }
-    .vgcontainer{
-        gap: 70%;
+    .line{
+        width: 50vw;
+    }
+}
+@media(max-width:530px){
+    .maincontainer{
+        width: 83.3%;
+    }
+    .line{
+        width: 83.3vw;
+    }
+}
+@media(max-width:271px){
+    .newvanguard{
+        text-align: left;
+    }
+    *{
+        font-size: ;
     }
 }
